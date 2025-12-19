@@ -8,7 +8,7 @@ import 'screens/screens.dart';
 
 // --- Configuración Global ---
 const List<String> keywords = ['disponible', 'stock', 'añadir al carrito'];
-const String targetUrl = "https://TU_URL_AQUI";
+const String targetUrl = "https://www.carrefour.es/gaming";
 
 // 🚀 Inicialización del servicio
 void main() async {
