@@ -7,7 +7,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'screens/screens.dart';
 
 // --- Configuración Global ---
-const List<String> keywords = ['disponible', 'stock', 'añadir al carrito'];
+const List<String> keywords = ['Consola PlayStation 5', 'PlayStation 5'];
 const String targetUrl = "https://www.carrefour.es/gaming";
 
 // 🚀 Inicialización del servicio
