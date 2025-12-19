@@ -25,8 +25,12 @@ Future<void> initializeService() async {
       onStart: onStart,
       autoStart: true,
       isForegroundMode: true,
-      notificationTitle: 'Monitor de Stock',
-      notificationText: 'Buscando consolas...',
+      // Se eliminan notificationTitle y notificationText de aquí
+      // Ahora se gestionan mediante el ID del canal o el plugin de notificaciones
+      notificationChannelId: 'my_foreground', // ID opcional
+      initialNotificationTitle: 'Monitor de Stock',
+      initialNotificationContent: 'Buscando consolas...',
+      foregroundServiceNotificationId: 888,
     ),
     iosConfiguration: IosConfiguration(
       autoStart: false,
